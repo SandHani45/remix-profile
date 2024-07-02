@@ -1,40 +1,43 @@
-# Welcome to Remix!
+# 🏎️💨 2024 Portfolio
 
-- 📖 [Remix docs](https://remix.run/docs)
+> Remix is a full stack web framework that lets you focus on the user interface and work back through web fundamentals to deliver a fast, slick, and resilient user experience. People are gonna love using your stuff.
 
-## Development
+This repo is rebuild and re-skin of my [NextJS][nextjs] portfolio from 2021. Both are hosted on using [Vercel][vercel] and really both are **incredible**.
 
-Run the dev server:
+That being said I am really excited to see what the future holds for Remix. Its one of those `full circle` moments where in our industry and beautifully orchestrated by Remix. More to come in a blog post, it deserves it.
 
-```shellscript
-npm run dev
+- [Current Portfolio](https://mattscholta.com) build with [Remix][remix]
+- [2021 Portfolio](https://2021.mattscholta.com) build with [NextJS][nextjs]
+
+**Technology:**
+
+- [Remix][remix]
+- [React](https://reactjs.org)
+- [TailwindCSS](https://tailwindcss.com)
+- [GraphCMS][graphcms]
+- [Vercel][vercel]
+
+## Setup
+
+Currently the API calls are made to an external service, [GraphCMS][graphcms]. Now, until we can move to [Prisma](https://www.prisma.io/) (or something a little more portable for "local development") you'll see failed API calls 🤷‍♂️.
+
+```bash
+# 🔒 Copy the example env file
+cp .env.example .env
+
+# Install Yarn or use NPM
+npm install --global yarn
+
+# 📦 Install dependencies
+yarn install
+
+# 🏎️💨 Start building
+yarn dev
 ```
 
-## Deployment
+<!-- Links -->
 
-First, build your app for production:
-
-```sh
-npm run build
-```
-
-Then run the app in production mode:
-
-```sh
-npm start
-```
-
-Now you'll need to pick a host to deploy it to.
-
-### DIY
-
-If you're familiar with deploying Node applications, the built-in Remix app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-- `build/server`
-- `build/client`
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever css framework you prefer. See the [Vite docs on css](https://vitejs.dev/guide/features.html#css) for more information.
+[graphcms]: https://graphcms.com "GraphCMS"
+[nextjs]: https://nextjs.org "NextJS"
+[remix]: https://remix.run "Remix"
+[vercel]: https://vercel.com "Vercel"
