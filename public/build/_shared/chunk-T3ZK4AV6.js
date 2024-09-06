@@ -1,0 +1,1 @@
+import{a as n}from"/build/_shared/chunk-VADYKVLB.js";import{b as o}from"/build/_shared/chunk-4HXKWYDW.js";import{c as a}from"/build/_shared/chunk-Q3IECNXJ.js";var r=a(n()),s=a(o()),b=e=>{let{className:d}=e;return(0,s.jsx)("div",{className:(0,r.default)("p-4",d),children:(0,s.jsx)("h2",{children:"\u{1F517} Sandbox Sidebar"})})};export{b as a};
