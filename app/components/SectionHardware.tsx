@@ -23,10 +23,9 @@ export const SectionHardware = () => {
         Hardware <span className="ml-2">💻</span>
       </h2>
       <p>
-        I've been happily developing on a Mac over the last 10+ years. However,
+        I've been happily developing on a Mac over the last 9+ years. However,
         I grew up on PC's and built a few rigs over the years for gaming and
-        work. Now days a perk of working in Software our employer often supplies
-        a well equipped box.
+        work.
       </p>
 
       {/*
@@ -53,7 +52,7 @@ export const SectionHardware = () => {
         <li>
           Computer -{" "}
           <a {...linkProps} href={laptop}>
-            MacBook Pro 14"
+            MacBook Pro 16"
           </a>
         </li>
         <li className="ml-4">M1 Max with 64GB of RAM 😍 🔥</li>

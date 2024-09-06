@@ -12,69 +12,66 @@ export interface Experience {
 }
 
 export const experience: Experience[] = [
-  // {
-  //   company: "Rocket CMS",
-  //   companyUrl: "https://rocketcms.org/",
-  //   date: `Feb 2022 - Present`,
-  //   description: `<p>RocketCMS lets anyone manage your website using the components you've designed.</p>`,
-  //   highlights: [
-  //     `Delivered a full rebuild & rebrand of the Python + Django website to NextJS`,
-  //     `Migrated to a (nearly) fully containerized stack and development workflow`,
-  //     `Introduced GraphQL and strong (generated) types across services`,
-  //     `Abstracted a core style-guide used across services`
-  //   ],
-  //   image: `https://rocketcms.org/favicon.ico`,
-  //   tags: [
-  //      "NodeJS",
-  //      "TailwindCSS",
-  //      "TypeScript"
-  //   ],
-  //   title: `Founder`
-  // },
 
   {
-    company: "Shiftsmart",
-    companyUrl: "https://shiftsmart.com/",
-    date: `Sept 2022 - Present`,
+    company: "LG Soft India",
+    companyUrl: "https://www.lgsoftindia.com/",
+    date: `May 2022 - Present`,
     dateRange: [new Date(2022, 9, 6)],
     description: `
       <p>
-        Nearly two years in and we've made some incredible strides. We've paid
-        down significant technical debt and have begun to see the fruits of our
-        labor.
+        Nearly two years in and we've made some incredible features. We've paid
+        down significant technical debt and have begun to see the webOS Hub Manager for TV flashing.
       </p>
     `,
     highlights: [
-      `0 - 1 addition of a NX Monorepo with 12+ applications and 20+ packages`,
-      `Adoption of Remix, TailwindCSS, Expo, NestJS, GraphQL, Github Actions, and more`,
+      `Lead the end-to-end development of innovative web
+applications using the MERN stack, ensuring seamless
+integration of front-end and back-end components.`,
+`Created webOS Hub Manager from scratch.`,
+`Analyse the webOS Setting application and fixed.
+Minor issue and optimized UI using hooks and lazy load.`,
+`Collaborated with UX/UI designers to create intuitive
+and visually appealing user interfaces, ensuring a
+positive and engaging user experience.`,
+`Implemented user feedback mechanisms and
+conducted usability testing to iterate on the user
+interface.`,
+`Developed and maintained version control processes
+using Git, contributing to a streamlined and organized
+codebase.`
       // `Dockerized the development workflow and tooling`,
       // `... And we're just getting started!`,
     ],
-    image: `https://assets-global.website-files.com/602a3f3e454f14956d14543a/602a3f3e454f1438b61455af_ShiftsmartIcon.png`,
-    tags: ["NodeJS", "TypeScript"],
-    title: `Staff Engineer`,
+    image: ``,
+    tags: ["Javascript", "React", "Node Js", "GraphQL", "AWS", "Git", "Jenkin",
+      "Remix", "Enact", "Zod"],
+    title: `Senior Full Stack Developer`,
   },
   {
-    company: "Haldi",
-    companyUrl: "https://haldi.com/",
-    date: `Apr 2021 - Aug 2022`,
-    dateRange: [new Date(2021, 4, 1), new Date(2022, 7, 15)],
+    company: "JoulestoWatts Business Solutions Pvt Ltd",
+    companyUrl: "https://www.joulestowatts.com/",
+    date: `May 2020 - March 2022`,
+    dateRange: [new Date(2020, 5, 5), new Date(2022, 3, 15)],
     description: `
       <p>
-        One year in we've jump-started the organization's code! Taking a
+        Two year in we've jump-started the organization's code! Taking a
         "loosely typed and strongly coupled" system and successfully flipping it.
-        The entire stack is now containerized and makes us of Firebase Emulators
-        for an incredible development workflow.
+        worked in client location for buidling education application.
       </p>
     `,
     // <p>One year in and we've accomplished so much. Here are a few milestones worth mentioning.</p>
     highlights: [
-      `0% - 80% Containerized stack and development workflow`,
+      `Collaborated with cross-functional teams to gather
+requirements, analyze user feedback, and iterate on
+software solutions for optimal performance.`,
       `Introduced GraphQL and strongly types across services`,
-      `Delivered a full rebuild & rebrand of the Python + Django website to NextJS`,
+      `Conducted code reviews, identified areas for
+improvement, and implemented best practices for code
+quality and maintainability.`,
       `Survey Framework, CSS Style Guide, Monorepo, Unit/E2E Testing, and more`,
     ],
-    image: `https://haldi.com/favicon.ico`,
+    image: ``,
     tags: [
       "Docker",
       "Google Cloud",
@@ -85,27 +82,37 @@ export const experience: Experience[] = [
       "Serverless",
       "TailwindCSS",
       "TypeScript",
+      "React",
+      "Html",
+      "Zod"
     ],
     title: `Principal Engineer`,
   },
   {
-    company: "thredUP",
-    companyUrl: "https://thredup.com",
-    date: `Feb 2016 - Apr 2021`,
-    dateRange: [new Date("February 2016"), new Date("April 2021")],
+    company: "Capgemini Pvt Ltd",
+    companyUrl: "https://www.capgemini.com/gb-en/",
+    date: `Sep 2018 - Feb 2020`,
+    dateRange: [new Date("Sep 2018"), new Date("Feb 2020")],
     description: `<p>
       Successfully pitched, prototyped, and delivered several high-impact
       projects within the organization. Assisting in hiring, managing, and
       mentoring engineers at various levels, distributed across the globe.
     </p>`,
     highlights: [
-      `Content Management System; Pitched, prototyped, and delivered`,
-      `Progressive Web App (PWA); Pitched, prototyped, and delivered`,
-      `Lerna Monorepo; Pitched, prototyped, and delivered`,
-      `CSS Overhaul; Pitched, prototyped, and delivered`,
-      `Apollo Migration, Redux Migration, Checkout Overhaul, and many more...`,
+      `3D and 2D PDF view.`,
+      `Implemented continuous integration and deployment
+(CI/CD) pipelines, reducing deployment time by 25% and
+increasing overall system reliability.`,
+      `Introduced a mechanism to convert a web page table to
+a Performance Demand Pool (PDF).`,
+      `Contributed to the development of a dynamic e-
+commerce platform, incorporating secure payment
+gateways and real-time inventory management.`,
+      `Successfully converted complex Excel datasets into
+HTML, enhancing accessibility and enabling
+collaborative data analysis on web platforms`,
     ],
-    image: `https://cf-tup-assets.thredup.com/shop/images/manifest_v2/favicon_96.png`,
+    image: ``,
     tags: [
       "CSS",
       "Docker",
@@ -118,35 +125,32 @@ export const experience: Experience[] = [
       "TypeScript",
       "Webpack",
     ],
-    title: `Staff Engineer`,
+    title: `Associate Consultant`,
   },
   {
-    company: "Bynd",
-    companyUrl: "https://bynd.com",
-    date: `Nov 2011 - Apr 2015`,
-    dateRange: [new Date(2011, 11, 1), new Date(2015, 4, 1)],
+    company: "Krackerz 360 Degree Pvt Ltd",
+    companyUrl: "https://krackerz.in/",
+    date: `Aug 2016 - Aug 2018`,
+    dateRange: [new Date(2016, 8, 1), new Date(2018, 8, 1)],
     description: `<p>
-      Agency life in San Francisco affords the opportunity to work with a
-      variety of "high profile" clients to create and deliver high-impact
-      projects. As Team Lead, my responsibilities included: pitch work,
-      application architecture, technical documentation, code reviews, and
-      mentoring.
+      Involved in analyzing client requirement and selecting
+suitable technology stack.
     </p>`,
     highlights: [
-      `Google TrainUP; Pitched, architected, developed, and delivered`,
-      `Google Databoard; Conceptualized, architected, developed, and delivered`,
-      `Facebook Disaster Relief; Prototyped with BackboneJS and Facebook API's`,
-      `Apple iAds; Development of HTML micro sites internally for Apple`,
-      `Apple iAds; Pitched an abstraction to minimize production time/cost, which was adopted internally`,
+      `Involved in designing scalable architecture based on the
+requirement.Successfully integrated web-based
+functionality into a mobile app, expanding the product's
+reach and enhancing accessibility for users on the go.`,
     ],
-    image: `https://assets-global.website-files.com/646e3fdd996bec75dd974e1f/64c389c72e68f265c7ab93bb_bynd-favicon.jpg`,
+    image: ``,
     tags: [
-      "AngularJS",
-      "BackboneJS",
-      "CSS",
-      "Google Cloud",
+      "VueJs",
+      "ReactJs",
+      "NodeJs",
+      "Express",
       "HTML",
       "Javascript",
+      "MongoDB"
     ],
     title: `Technical Team Lead`,
   },
@@ -273,8 +277,8 @@ export interface Social {
 export const social: Social[] = [
   {
     icon: `/images/svg/envelope.svg`,
-    title: `matthew.scholta`,
-    url: `mailto:matthew.scholta@gmail.com`,
+    title: `sandhanifullstack`,
+    url: `mailto:sandhanifullstack@gmail.com`,
   },
   // {
   //   icon: `/images/svg/phone.svg`,
@@ -283,17 +287,17 @@ export const social: Social[] = [
   // },
   {
     icon: `/images/svg/github.svg`,
-    title: `visormatt`,
-    url: `https://github.com/visormatt`,
+    title: `SandHaniDev`,
+    url: `https://github.com/SandHani45`,
   },
   {
     icon: `/images/svg/linkedin.svg`,
-    title: `/in/MatthewScholta`,
-    url: `https://www.linkedin.com/in/MatthewScholta`,
+    title: `/in/SandhaniFullstack`,
+    url: `https://www.linkedin.com/in/sandhani-sheikh-full-stack-developer-8bb76aa4/`,
   },
   {
     icon: `/images/svg/twitter.svg`,
-    title: `@visormatt`,
-    url: `https://twitter.com/visormatt`,
+    title: `@SandHani45`,
+    url: `https://twitter.com/SandHani45`,
   },
 ];

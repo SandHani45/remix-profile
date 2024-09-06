@@ -26,7 +26,7 @@ export default function () {
       <section className="bg-color-background-dark text-color-background">
         <AppHero
           className="py-20 md:py-40"
-          copy="If you're curious"
+          copy="If you're Shaik"
           highlight="What I'm using"
           tag="h1"
         />
@@ -35,9 +35,9 @@ export default function () {
       <div className="">
         <SectionSoftware />
       </div>
-      <div className="bg-color-background-dark py-20 text-color-background-light">
+      {/* <div className="bg-color-background-dark py-20 text-color-background-light">
         <SectionMisc />
-      </div>
+      </div> */}
     </>
   );
 }

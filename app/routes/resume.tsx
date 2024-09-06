@@ -43,7 +43,7 @@ export default function () {
                 className="custom-bg-gradient aspect-square max-h-48 overflow-hidden rounded-full p-1"
                 height="auto"
                 loading="eager"
-                src="/images/assets/matt-scaled.webp"
+                src="/images/assets/shaik.jpeg"
                 width="auto"
               />
               <div className="flex flex-shrink-0 flex-col gap-2 p-4">
@@ -56,7 +56,7 @@ export default function () {
               <a
                 className="ui-btn custom-bg-gradient flex-1 whitespace-nowrap rounded-2xl px-4 py-2 text-center text-sm font-normal text-white"
                 download={true}
-                href="/resume/Matthew_Scholta_2024.pdf"
+                href="/resume/SandhaniShaikFullStack.pdf"
               >
                 Download Resume
               </a>

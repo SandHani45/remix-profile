@@ -95,7 +95,7 @@ export const getMetaData = (options: MetaDataOptions): MetaDescriptor[] => [
   },
   {
     property: "twitter:creator",
-    content: `@visormatt`,
+    content: `@SandHani45`,
   },
   {
     property: "twitter:description",
@@ -107,7 +107,7 @@ export const getMetaData = (options: MetaDataOptions): MetaDescriptor[] => [
   },
   {
     property: "twitter:site",
-    content: `@visormatt`,
+    content: `@SandHani45`,
   },
   {
     property: "twitter:title",

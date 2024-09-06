@@ -56,9 +56,9 @@ export const AppFooter = () => {
           rel="noreferrer"
           target="_blank"
         >
-          Dubai 🇦🇪
+          Remix 
         </a>
-        , UAE.
+        {/* , UAE. */}
       </p>
     </footer>
   );

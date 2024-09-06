@@ -36,5 +36,6 @@ export const data: Record<string, string> = {
   NextJS: `Next.js is an open-source web development framework built on top of Node.js enabling React based web applications functionalities such as server-side rendering and generating static websites.`,
   PostCSS: `PostCSS is a software development tool that uses JavaScript-based plugins to automate routine CSS operations. A tool for transforming CSS with JavaScript`,
   VSCode: `Visual Studio Code, also commonly referred to as VS Code, is a source-code editor made by Microsoft. Features include support for debugging, syntax highlighting, intelligent code completion, snippets, code refactoring, and embedded Git. It rocks 🤘!`,
-  CSS: `Pushing pixels is what got me into development so its no suprise I genuinely love CSS. My preferred tooling includes; TailwindCSS, CSS Modules, PostCSS, and Progressive Enhancement.`
+  CSS: `Pushing pixels is what got me into development so its no suprise I genuinely love CSS. My preferred tooling includes; TailwindCSS, CSS Modules, PostCSS, and Progressive Enhancement.`,
+  Zod: `Validation`
 };

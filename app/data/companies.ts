@@ -7,28 +7,28 @@ export interface Data {
 
 export const data: Data[] = [
   {
-    company: "shiftsmart",
+    company: "LG Soft India",
     className: "h-4 md:h-8",
-    image: "/images/svg/shiftsmart.svg",
-    url: "https://shiftsmart.com"
+    image: "",
+    url: "https://www.lgsoftindia.com/"
   },
   {
-    company: "thredUP",
+    company: "JoulestoWatts Business Solutions Pvt Ltd",
     className: "h-4 md:h-8",
-    image: "/images/svg/thredup.svg",
-    url: "https://thredup.com"
+    image: "",
+    url: "https://www.joulestowatts.com/"
   },
   {
-    company: "Haldi",
+    company: "Capgemini Pvt Ltd",
     className: "h-3 md:h-6",
-    image: "/images/svg/haldi.svg",
-    url: "https://haldi.com"
+    image: "",
+    url: "https://www.capgemini.com/gb-en/"
   },
   {
-    company: "Beyond",
+    company: "Krackerz 360 Degree Pvt Ltd",
     className: "h-5 md:h-10",
     image: "/images/svg/bynd.svg",
-    url: "https://bynd.com"
+    url: "https://krackerz.in/"
   },
   {
     company: "Alphabet (Google)",
